@@ -14,8 +14,8 @@ class BasePage(): #методы описаны в классе в алфавит
         link.click()
         
     def go_to_basket_page(self):
-        busket_button = self.browser.find_element(*BasePageLocators.GO_TO_BUSKET_BUTTON)
-        busket_button.click()
+        basket_button = self.browser.find_element(*BasePageLocators.GO_TO_BASKET_BUTTON)
+        basket_button.click()
         
     def __init__(self, browser, url):
         self.browser = browser
